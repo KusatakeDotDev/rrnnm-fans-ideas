@@ -3,15 +3,12 @@ body:
     attributes:
       value: |
         動かない・見づらい・表示がおかしいところを教えてください。小さなことでも助かります。
-  - type: dropdown
+        ほかの方の投稿と同じ内容なら、新しく立てずに 👍 を付けていただけると助かります。
+  - type: input
     id: page
     attributes:
-      label: どのページですか
-      options:
-        - トップページ
-        - このサイトについて
-        - サイト全体
-        - その他
+      label: どのページの、どこですか
+      placeholder: 例）トップページの、配信予定のところ
     validations:
       required: true
   - type: textarea
@@ -19,7 +16,7 @@ body:
     attributes:
       label: 何をしたとき、どうなりましたか
       description: 画面の画像があれば、ここに貼り付けられます。
-      placeholder: 例）スマホを横向きにしたら、配信予定のカードが画面からはみ出した
+      placeholder: 例）スマホを横向きにしたら、カードが画面からはみ出した
     validations:
       required: true
   - type: textarea

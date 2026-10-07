@@ -1,0 +1,25 @@
+body:
+  - type: markdown
+    attributes:
+      value: |
+        「こんなページ・機能があったらうれしい」を教えてください。
+        ほかの方の投稿と同じ内容なら、新しく立てずに 👍 を付けていただけると助かります。
+  - type: input
+    id: page
+    attributes:
+      label: どのページについてですか
+      placeholder: 例）新しいページ／トップページ
+    validations:
+      required: true
+  - type: textarea
+    id: wish
+    attributes:
+      label: どうなっていたらうれしいですか
+      placeholder: 例）配信予定を、自分のカレンダーに登録できるとうれしい
+    validations:
+      required: true
+  - type: textarea
+    id: when
+    attributes:
+      label: あると、どんなときに助かりますか（任意）
+      placeholder: 例）見たい配信を忘れずにいたいとき
