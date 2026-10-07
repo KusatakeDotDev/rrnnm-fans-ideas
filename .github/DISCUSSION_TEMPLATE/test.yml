@@ -1,0 +1,36 @@
+body:
+  - type: markdown
+    attributes:
+      value: |
+        動かない・見づらい・表示がおかしいところを教えてください。小さなことでも助かります。
+  - type: dropdown
+    id: page
+    attributes:
+      label: どのページですか
+      options:
+        - トップページ
+        - このサイトについて
+        - サイト全体
+        - その他
+    validations:
+      required: true
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: 何をしたとき、どうなりましたか
+      description: 画面の画像があれば、ここに貼り付けられます。
+      placeholder: 例）スマホを横向きにしたら、配信予定のカードが画面からはみ出した
+    validations:
+      required: true
+  - type: textarea
+    id: wish
+    attributes:
+      label: どうなっていたらうれしいですか
+      placeholder: 例）横向きでも、カードが画面に収まってほしい
+    validations:
+      required: true
+  - type: input
+    id: device
+    attributes:
+      label: 端末とブラウザ（任意）
+      placeholder: 例）iPhone・Safari
