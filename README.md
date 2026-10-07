@@ -1,3 +1,12 @@
+<p align="center">
+  <a href="https://rrnnm.fans">
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="assets/logo/rrnnm-fans-logo-white-outlined.svg">
+      <img src="assets/logo/rrnnm-fans-logo-outlined.svg" alt="rrnnm.fans（非公式）" width="400">
+    </picture>
+  </a>
+</p>
+
 # rrnnm.fans（非公式）への提案窓口
 
 [rrnnm.fans](https://rrnnm.fans) は、個人で運営している非公式のファンサイトです。このリポジトリでは、サイトへのアイデアや、直してほしいところを受け付けております。
